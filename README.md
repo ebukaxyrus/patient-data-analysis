@@ -1,22 +1,50 @@
-# patient-data-analysis
-# 🩺 Patient Data Analysis Using Python & AI
+# Patient Data Analysis
 
-This project explores patient satisfaction and hospital service efficiency using Python and AI-assisted data analysis.
+An exploratory analysis of hospital-management data, focusing on satisfaction and service patterns.
 
-### 📊 Dataset Source
-The dataset used in this project was sourced from [Kaggle](https://www.kaggle.com/).  
-Dataset name: *[patients.csv]*  
-Link: [https://www.kaggle.com/datasets/jaderz/hospital-beds-management]  
-License: This dataset is available for public use under the terms specified by the original author on Kaggle.
+## Technology stack
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Plotly
+- Jupyter
 
-## Tools
-- Python, Pandas, Matplotlib, Seaborn, Plotly
-- PowerPoint (for visualization and storytelling)
+## Confirmed functionality
+- Uses a Jupyter notebook and patients.csv dataset
+- includes an analysis presentation
+- README cites Kaggle hospital beds management dataset.
 
-## Key Insights
-- Average satisfaction: ~80/100
-- Average stay: 7.4 days
-- Highest satisfaction: Surgery
-- Weak correlation between age and satisfaction
+## Repository entry point
 
-📊 View full presentation: [https://drive.google.com/file/d/1wMyt4CtntlfcHfMYtXJBhtsVC6ADoJow/view?usp=sharing]
+- `Paitents.ipynb`: main analysis notebook.
+
+## Run locally
+
+```bash
+git clone https://github.com/ebukaxyrus/patient-data-analysis.git
+cd patient-data-analysis
+python -m venv .venv
+source .venv/bin/activate  # Windows PowerShell: .venv\Scripts\Activate.ps1
+pip install pandas matplotlib seaborn plotly notebook
+jupyter notebook
+```
+
+Open `Paitents.ipynb` in Jupyter and inspect the notebook inputs before execution.
+
+## Limitations and responsible use
+
+Findings are descriptive, sample-dependent, and not evidence of causality. Review dataset license and patient privacy.
+
+## Documentation and quality checklist
+
+- [ ] Verify clean-environment installation.
+- [ ] Add authentic screenshots and demonstration links.
+- [ ] Add input/error-handling tests.
+- [ ] Check data provenance, licensing and accessibility.
+
+## Author
+
+**Dimakunne Chukwuebuka Francis** · [GitHub](https://github.com/ebukaxyrus) · [Portfolio](https://xyrusportfolio.netlify.app/) · [XY AI Solution](https://xyaisolution.online/)
+
+*Source-reviewed documentation. End-to-end deployment has not been independently verified.*
